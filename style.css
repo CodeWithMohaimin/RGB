@@ -1,0 +1,36 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: black;
+    background-color: #fff;
+}
+#root button{
+    background: #fff;
+    border: 1.5px solid orange;
+    padding: 13px 25px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#root button:hover{
+    background: rgb(94, 128, 201);
+    cursor: pointer;
+    
+}
+#root h1{
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    text-align: center;
+}
